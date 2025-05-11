@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+  }
+ul {
+    list-style-type: none;
+   
+    
+  }
+.styled-list li::first-letter {
+    color: black;
+    font-size: 24px
+}
+
+div {
+ text-align: center;
+}
+
+#wrap {
+    padding-top: 5px;
+    background-color: rgb(185,129,78);
+    text-align: center;
+    height: 90vh;
+}
+#sonnets {
+    text-align: center;
+}
+.dotted-border-h1 {
+    background-color: blanchedalmond;
+    border-top: 3px dotted black;margin-top: 5px;
+    border-left: 3px dotted black;margin-left: 90px;
+    border-right:3px dotted black;margin-right: 90px;
+    border-bottom: 3px dotted black;margin-bottom: 0px;
+}
+#span-border {
+    
+    height: 80%;
+    background-color: blanchedalmond;
+    border-left: 3px dotted black; margin-left: 90px;
+    border-right:3px dotted black;margin-right: 90px;
+    border-bottom:3px dotted black;margin-bottom: 0px;
+    border-top: 3px dotted black;
+    padding: 10px;
+}

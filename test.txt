@@ -1,0 +1,9 @@
+opening a new repository in GitHub
+
+1 create file on my computer and put at least 1 file in it
+2 go to GitHub and under repositories press new
+3 add the name exactly as it appears in the file on my computer
+4 open the folder on my computer, right click and go to show more options and select open git bash here
+5 it should show you in the correct file
+6 type git init press enter
+7 type git add . press enter

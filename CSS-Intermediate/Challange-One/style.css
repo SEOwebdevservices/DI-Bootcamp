@@ -1,0 +1,12 @@
+ul {
+    list-style-type: none;
+}
+#nav {
+    float: left;
+    width: 12em;
+    height: 24em;
+
+}
+#content {
+    text-align: center;
+}
