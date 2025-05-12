@@ -1,0 +1,12 @@
+URL: https://github.com/SEOwebdevservices/DI-Bootcamp/blob/main/Week-1/Day-2/daily_challenge_lists_and_strings.py
+suggestions for improvement:
+- The code only addresses Challenge 2 (removing consecutive duplicate letters).  Challenge 1 (generating multiples of a number) is completely missing.
+- Add input validation to handle non-integer inputs for Challenge 1 (if it were implemented).
+- The code for Challenge 2 could be slightly improved by using a more descriptive variable name than `result` (e.g., `unique_string`).
+- Add docstrings to explain the purpose of the code and functions (if any were defined).
+Brief justification:
+- correctness: The code correctly implements Challenge 2. It iterates through the input string and appends characters to the `result` string only if they are different from the last character added. This effectively removes consecutive duplicate letters. However, it fails to address Challenge 1, which is a significant portion of the chapter content.  Therefore, the correctness score is 80%.
+- readability: The code is fairly readable. The logic is straightforward and easy to follow.  Using a more descriptive variable name would improve readability further.  Adding docstrings would make it even better. The score is 90%.
+- performance: The code has a time complexity of O(n), where n is the length of the input string. This is optimal for this task because it iterates through the string only once. The space complexity is also O(n) in the worst case (no duplicates), but this is acceptable.  The score is 100%
+- security: The code doesn't have any security vulnerabilities. It simply takes a string as input and processes it. There's no interaction with external systems or sensitive data. The score is 100%
+
