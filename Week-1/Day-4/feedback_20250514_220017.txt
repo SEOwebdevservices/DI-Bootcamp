@@ -1,0 +1,14 @@
+URL: https://github.com/SEOwebdevservices/DI-Bootcamp/blob/main/Week-1/Day-4/exercises_xpfix.py
+suggestions for improvement:
+- **Exercise 1 and 2:** The functions `learning` and `favorite_book` are not defined according to the instructions.  They should be named `display_message` and `favorite_book` respectively and they should not contain any unnecessary parameters.  The print statements should match the expected output more closely.
+- **Exercise 3:** The code for Exercise 3 is correct and follows the instructions.
+- **Exercise 4:** The code for Exercise 4 is correct and follows the instructions.
+- **Exercise 5:** The function `make_shirts` should be renamed to `make_shirt` to match the instructions. Also, it should include default values for size and text. 
+- **Exercise 6:** The `make_great` function correctly modifies the list; however, it returns a new list instead of modifying the original list in place.  The chapter explicitly requests the function modify the list in place.
+- **Exercise 7:** The code for Exercise 7 is mostly correct and includes the bonus features.  However, the instructions asked for a random temperature between -10 and 40. Then, to include season information. The code combines both requests in one step, which is not wrong, but not how the prompt is structured. The temperature ranges in the advice section could be slightly improved for clarity and to better align with typical weather perceptions.  The prompt suggests using if/elif/else for season rather than the current month input.
+Brief justification:
+- correctness: Most exercises are implemented correctly, with minor deviations from the specified function names, parameters, and output formats. Exercise 6 doesn't modify the original list in place, and Exercise 7 combines the temperature generation and season selection in a way not explicitly requested in the prompt.  However, the functionality is correct.  The bonus features are well-implemented in Exercise 7.
+- readability: The code is generally readable and well-formatted.  However, some function names and parameter choices could be improved for better alignment with the exercise descriptions.  Comments are helpful and clear.
+- performance: The code's performance is adequate for the tasks involved. No major performance issues are apparent. The random number generation is efficient.
+- security: There are no apparent security concerns in this code.  It performs simple calculations and interactions with user input, which does not pose any security risks.
+

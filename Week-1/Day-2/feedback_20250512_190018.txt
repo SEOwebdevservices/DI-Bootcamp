@@ -1,0 +1,18 @@
+URL: https://github.com/SEOwebdevservices/DI-Bootcamp/blob/main/Week-1/Day-2/exercise-xp.py
+suggestions for improvement:
+- Exercise 1: The code correctly implements set operations but lacks the explicit creation and printing of the sets as instructed. Add print statements to show intermediate steps.
+- Exercise 2: The code cleverly converts the tuple to a list, adds an element, and converts it back.  However, the exercise is designed to highlight the immutability of tuples; explicitly state that tuples cannot be modified after creation.
+- Exercise 3: The code is functional, but the instructions to empty the list are slightly differently phrased than what the code does.  In the code, `clear()` is called, instead of using `.remove()` repeatedly, which better addresses the ‘empty’ instructions. The code accurately shows each step though.
+- Exercise 4: The code's float generation method isn't optimal and requires improvement. The response to the recap question on floats and ints is too brief.  Expand on this part of the assignment.
+- Exercise 5: The code correctly implements the for loops, but it's more efficient to generate the even numbers directly using `range(2, 21, 2)` rather than filtering within the loop.
+- Exercise 6: The code is functional. It could improve by adding some error handling (e.g., handling non-string input).
+- Exercise 7: The code is well-structured and functional. No major improvements are needed.
+- Exercise 8: The code correctly implements the pizza topping logic, but it calculates the total cost within the loop.  It should be moved outside the loop to enhance efficiency and clarity.
+- Exercise 9: The code correctly calculates the total ticket cost. The bonus part (teenagers and restricted movie) is not implemented. Also, age input validation is absent.
+- Exercise 10: The code efficiently removes 'pastrami' and processes sandwiches.  The final output could use some formatting to improve presentation.
+Brief justification:
+- correctness: Most exercises are implemented correctly, but some lack the detail specified in the instructions (missing print statements, brief explanations). The bonus in Exercise 9 is missing, and the float generation in Exercise 4 is suboptimal. Exercise 2 doesn't explicitly state the immutability of tuples, which is the key learning point.  Overall, the solutions demonstrate understanding but lack thoroughness.
+- readability: The code is generally readable, with clear variable names and comments. However, some exercises could benefit from more detailed comments and better code formatting to improve readability. Exercise 1 and 2 can be restructured for improved clarity.
+- performance: The code is efficient in most cases.  Exercise 5's loop can be improved with the `range` function. Exercise 8's cost calculation can be optimized by doing it outside the loop. Overall performance is quite good.
+- security: No security vulnerabilities are present in the provided code.  The code doesn't handle user input in a way that could create security risks. It's safe in this context.
+
