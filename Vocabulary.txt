@@ -1,0 +1,34 @@
+Week 1 Vocabulary
+Basic Data types in py
+    string
+    int
+    float
+    bool
+
+Basic Sequences
+    string
+    list
+    tuples
+    set
+    range
+
+Collections
+    dictionaries
+    lists
+    tuples
+    sets
+
+functions
+    print
+    def
+    return
+    arguments - pieces of information provided to function, can also be called paramiters
+
+indentations - space after the : indentations modify the scope
+
+Week 2 Vocabulary
+OOP = object orientd programming
+Object = an instance of a class
+class = major way to represent something in the code
+EX: class Car > white citron c3
+methodes are functions in the scope of a
