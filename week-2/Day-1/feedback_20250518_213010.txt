@@ -1,0 +1,12 @@
+URL: https://github.com/SEOwebdevservices/DI-Bootcamp/blob/main/week-2/Day-1/exercises-xp.py
+suggestions for improvement:
+- In Exercise 1, the `find_oldest_cat` method should be a separate function, not a method of the `Cat` class.  The instructions clearly state to create a function outside the class.
+- Similarly in Exercise 2, `find_big_dog` should be a separate function.
+- Exercise 3: The `crazy_train` lyrics are not properly formatted; each line should be within its own quotes.
+- In Exercise 4, the `sort_animals` method modifies the original list; consider making a copy to avoid side effects. The algorithm is efficient, but creating a copy would be best practice for preventing unintended consequences.
+Brief justification:
+- correctness: Exercise 1 and 2 incorrectly place the comparison functions inside the class.  While they work, it violates the instructions. Exercise 3 has a minor formatting issue in the lyrics. Exercise 4 correctly implements all functionalities described in the problem statement.  The `sort_animals` and `get_groups` methods work correctly, creating the alphabetical grouping. The only issue is that it is potentially modifying the original animal list.
+- readability: The code is generally readable and well-structured, with clear variable names. The minor structural issues mentioned above slightly impact readability. The formatting could use some improvement, especially with more consistent spacing and line breaks.
+- performance: The algorithms used are generally efficient for the tasks.  The sorting in Exercise 4 is efficient.  However, the lack of copying in `sort_animals` (Exercise 4) is a potential performance issue if other parts of the code rely on the original, unsorted `animals` list. The time complexity for sorting is O(n log n) which is good.
+- security: There are no apparent security vulnerabilities in the provided code.  It's all within the scope of basic data manipulation.
+
