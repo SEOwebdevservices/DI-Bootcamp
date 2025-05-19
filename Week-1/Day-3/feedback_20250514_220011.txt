@@ -1,0 +1,12 @@
+URL: https://github.com/SEOwebdevservices/DI-Bootcamp/blob/main/Week-1/Day-3/daily_challenge_dictionaries.py
+suggestions for improvement:
+- Add comments to explain the purpose of each section of the code in Challenge 2 (Data Cleaning, Determining Affordable Items).
+- For Challenge 2, consider using a more descriptive variable name than `wallet_amount` (e.g., `available_funds`).
+- In Challenge 2, error handling could be added to gracefully handle cases where the price string is not properly formatted (e.g., contains non-numeric characters other than '$' and ',').  A `try-except` block around the `int()` conversion would be beneficial.
+- For better readability in Challenge 1, you could extract the logic for adding a character to the dictionary into a separate function. This would improve code organization and make the main loop easier to understand.
+Brief justification:
+- correctness: Both challenges are correctly implemented. Challenge 1 accurately creates the dictionary mapping characters to their indices. Challenge 2 correctly cleans the price strings, compares them to the wallet amount, sorts the affordable items, and returns "Nothing" if appropriate.  The code's functionality directly addresses all requirements specified in the Chapter Content/Questions section.
+- readability: The code is generally readable. However, adding comments to explain the purpose of some sections (particularly in Challenge 2) would enhance readability.  More descriptive variable names would also improve readability.
+- performance: The performance of both solutions is acceptable for the given input sizes. The use of `replace()` for string manipulation and iterating through the dictionary are efficient.  However, for extremely large datasets, more optimized approaches might be considered. The current approach has a time complexity of O(n) for both challenges.
+- security: The code does not introduce any security vulnerabilities.  No user input is directly used in a way that could lead to vulnerabilities like command injection or SQL injection.
+
