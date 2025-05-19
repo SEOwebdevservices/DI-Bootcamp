@@ -1,4 +1,9 @@
 Week 1 Vocabulary
+
+Variables
+declare a Variable
+
+
 Basic Data types in py
     string
     int
@@ -19,16 +24,18 @@ Collections
     sets
 
 functions
+global scope and local scope
     print
     def
     return
     arguments - pieces of information provided to function, can also be called paramiters
-
+    "call the function": triggering a function by writting its name
 indentations - space after the : indentations modify the scope
+    methods: are functions that are part of a class scope
 
 Week 2 Vocabulary
 OOP = object orientd programming
 Object = an instance of a class
-class = major way to represent something in the code
+class = major way to represent something in the code (a blueprint for building an object)
 EX: class Car > white citron c3
-methodes are functions in the scope of a
+methodes are functions in the scope of a class
