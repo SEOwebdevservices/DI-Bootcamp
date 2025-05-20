@@ -1,0 +1,11 @@
+URL: https://github.com/SEOwebdevservices/DI-Bootcamp/blob/main/Week-1/Day-5/daily_challange_challanges.py
+suggestions for improvement:
+- Challenge 1 is incomplete: The code is commented out and doesn't actually run.  It needs to be uncommented and integrated into a runnable program.
+- Challenge 2's `longest_word` function correctly identifies the longest word but doesn't handle cases where multiple words have the same maximum length; it only returns the first one encountered. The instructions specify that this is the intended behavior, however, it could be made more robust by returning a list of all longest words for enhanced clarity.
+- Improve the comments in Challenge 2.  While comments are present, they're very basic and don't add much value beyond restating the obvious.  Focus on explaining non-trivial aspects of the code or design choices.
+Brief justification:
+- correctness: Challenge 1's code is present but not executed; it would function correctly if uncommented.  It fulfills the instructions of sorting a comma separated string of words.  Challenge 2's function is correctly implemented to find the longest word according to the requirements, although there's room for improvement in terms of handling multiple longest words.
+- readability: The code is well-structured and relatively easy to follow. The comments in Challenge 2 could be improved to explain decisions and enhance understanding. Variable names are clear and descriptive.
+- performance: The algorithms used in both challenges are efficient. The time complexity for sorting in Challenge 1 is O(n log n), and the linear scan in Challenge 2 has a time complexity of O(n), where n is the number of words. The space complexity is also efficient as the algorithms do not use any auxiliary data structures beyond the necessary lists.
+- security: There are no security concerns in the provided code as it only involves string manipulation and basic comparison operations. No external resources or user input handling in a way that could introduce vulnerabilities is present.
+

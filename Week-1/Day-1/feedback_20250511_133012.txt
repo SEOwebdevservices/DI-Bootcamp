@@ -1,0 +1,12 @@
+URL: https://github.com/SEOwebdevservices/DI-Bootcamp/blob/main/Week-1/Day-1/starting-with-python-exercise-xp.py
+suggestions for improvement:
+- Exercise 3:  The code is incomplete.  It should provide the predicted output for the comparison operations, not just indicate a syntax error. 
+- Exercise 7, 8, and 9:  These exercises are left uncommented and are incomplete. They should be fully implemented.
+- Exercise 5: While the code works, using f-strings for simple string formatting can sometimes be less readable than other methods for very basic string concatenation. Consider alternatives for simpler cases.
+- Use more descriptive variable names where possible.  For example, instead of `a` and `b`, use names like `number1` and `number2`.
+Brief justification:
+- correctness: The code correctly solves exercises 1, 2, 4, and 6. Exercises 3, 7, 8, and 9 are incomplete or missing.  Exercise 5 works but could be improved for readability. The correctness score reflects the successful completion of only a portion of the exercises as per the chapter content.
+- readability: The code is generally well-formatted and easy to understand.  Variable names could be improved in a few places for clarity. The use of f-strings in some places improves readability; however, in simpler cases, other methods might be equally or more readable.
+- performance: The code's performance is good for the tasks performed. There are no obvious performance bottlenecks.
+- security: No security issues are present in the provided code.
+
